@@ -1,0 +1,25 @@
+.logo{
+	@include line-height_calc(24px, 28px);
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);
+}
+
+@media screen and (min-width: 768px) {
+	.logo{
+		margin-right: 88px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.logo{
+		@include line-height_calc(26px, 31px);
+		margin-right: 93px;
+	}
+}
+
+.logo__first-part{
+	color: var(--accent-color);
+}

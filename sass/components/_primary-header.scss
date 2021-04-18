@@ -1,0 +1,15 @@
+.primary-header{
+	font-weight: bold;
+	@include line-height_calc(28px, 33px);
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color); 
+	margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+	.primary-header{
+		@include line-height_calc(36px, 42px);
+		margin-bottom: 50px;
+	}
+}
