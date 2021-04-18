@@ -804,9 +804,6 @@ header::after {
   .rules-list__item {
     width: 270px;
   }
-  .rules-list {
-    justify-content: unset;
-  }
   .rules-list__item:not(:last-child) {
     margin-right: 30px;
     margin-bottom: 0;
