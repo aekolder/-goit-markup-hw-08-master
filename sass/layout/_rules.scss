@@ -32,7 +32,7 @@
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
-	text-align: center;
+	
 }
 
 .rules-list__item{
@@ -71,6 +71,9 @@
 		text-align: left;
 	}
 }
+
+
+
 
 @media screen and (min-width: 1200px){
 	.rules{
